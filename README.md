@@ -1,0 +1,1 @@
+# QuickResolve-Frontend

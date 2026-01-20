@@ -1,0 +1,108 @@
+<!-- Main wrapper for the entire application -->
+<div class="app">
+
+  <!-- Top header section of the app -->
+  <header class="header">
+
+    <!-- App name / logo -->
+    <h2>QuickResolve</h2>
+
+    <!-- Navigation links -->
+    <nav>
+      <!-- Active page link -->
+      <a class="active">Dashboard</a>
+
+      <!-- Link to report a new issue -->
+      <a>Report Issue</a>
+    </nav>
+  </header>
+
+  <!-- Page title and main action button -->
+  <section class="page-header">
+
+    <!-- Left side: title and description -->
+    <div>
+      <!-- Page heading -->
+      <h1>Issue Dashboard</h1>
+
+      <!-- Short description under the heading -->
+      <p>Track and manage all reported issues</p>
+    </div>
+
+    <!-- Button to report a new issue -->
+    <button class="primary-btn">+ Report New Issue</button>
+  </section>
+
+  <!-- Filter section for narrowing down issues -->
+  <section class="filter-box">
+
+    <!-- Label describing the dropdown -->
+    <label>Filter by Category</label>
+
+    <!-- Dropdown for selecting issue categories -->
+    <select>
+      <option>All Categories</option>
+      <option>Electricity</option>
+      <option>Water</option>
+      <option>Security</option>
+    </select>
+  </section>
+
+  <!-- Grid/container holding all issue cards -->
+  <section class="issues-grid">
+
+    <!-- Single issue card -->
+    <div class="issue-card">
+
+      <!-- Priority badge (low priority) -->
+      <span class="priority low">Low</span>
+
+      <!-- Issue title -->
+      <h3>Light not working</h3>
+
+      <!-- Short issue description -->
+      <p>Broken light in the hallway.</p>
+
+      <!-- Extra issue details -->
+      <div class="meta">
+        <!-- Issue category -->
+        <span>Electricity</span>
+
+        <!-- Date the issue was reported -->
+        <span>Jan 19, 2026</span>
+      </div>
+
+      <!-- Bottom section of the card -->
+      <div class="footer">
+
+        <!-- Current status of the issue -->
+        <span class="status open">Open</span>
+      </div>
+    </div>
+
+    <!-- Second issue card -->
+    <div class="issue-card">
+
+      <!-- Priority badge (high priority) -->
+      <span class="priority high">High</span>
+
+      <!-- Issue title -->
+      <h3>Broken Light in Conference Room</h3>
+
+      <!-- Issue description -->
+      <p>Main ceiling light not working.</p>
+
+      <!-- Issue metadata -->
+      <div class="meta">
+        <span>Electricity</span>
+        <span>Jan 18, 2026</span>
+      </div>
+
+      <!-- Card footer -->
+      <div class="footer">
+        <span class="status open">Open</span>
+      </div>
+    </div>
+
+  </section>
+</div>
